@@ -38,3 +38,5 @@ See node.js fs [stats](https://nodejs.org/api/fs.html#fs_class_fs_stats)
 # Todo:
 
 - Implement CLI version.
+
+- Write tests
