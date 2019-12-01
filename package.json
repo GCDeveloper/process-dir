@@ -1,0 +1,27 @@
+{
+  "name": "@toolia/process-dir",
+  "version": "0.0.0",
+  "description": "apply a function to contents of a directory and optional subdirectories",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCDeveloper/process-dir.git"
+  },
+  "keywords": [
+    "command-line",
+    "tool"
+  ],
+  "author": "George Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GCDeveloper/process-dir/issues"
+  },
+  "homepage": "https://github.com/GCDeveloper/process-dir#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
