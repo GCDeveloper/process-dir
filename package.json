@@ -4,6 +4,9 @@
   "description": "apply a function to contents of a directory and optional subdirectories",
   "main": "index.js",
   "module": "main.js",
+  "bin": {
+    "process-dir": "bin/process-dir.js"
+  },
   "scripts": {
     "test": "node -e \"process.exit(0)\""
   },
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/GCDeveloper/process-dir#readme",
   "dependencies": {
+    "@toolia/json-args": "^1.1.1",
     "chalk": "^3.0.0",
     "esm": "^3.2.25"
   }
