@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const processRecursively = require("../index.js").default;
+console.log('This requires the peer dependency of \'chalk\', try `npm i chalk --no-save`');
 const chalk = require("chalk");
 
 // Example usage of processRecursively:

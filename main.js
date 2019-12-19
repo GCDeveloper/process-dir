@@ -51,7 +51,7 @@ export async function recursivelyReadPaths(
     }
     return stats;
   } catch (err) {
-    throw err;
+    cb(new Error(err));
   }
 }
 

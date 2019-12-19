@@ -8,7 +8,8 @@
     "process-dir": "bin/process-dir.js"
   },
   "scripts": {
-    "test": "node -e \"process.exit(0)\""
+    "test": "node -e \"process.exit(0)\"",
+    "example": "node ./example/process-dir"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
   "homepage": "https://github.com/GCDeveloper/process-dir#readme",
   "dependencies": {
     "@toolia/json-args": "^1.1.1",
-    "chalk": "^3.0.0",
     "esm": "^3.2.25"
+  },
+  "peerDependencies": {
+    "chalk": "^3.0.0"
   }
 }
