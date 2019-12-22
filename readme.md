@@ -1,3 +1,5 @@
+:warning: Requires Node >= 10
+
 # process-dir
 
 ## Quick start
